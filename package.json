@@ -1,0 +1,23 @@
+{
+  "name": "unigram-channel-service",
+  "version": "1.0.0",
+  "description": "channel service for unigram project",
+  "main": "src/index.js",
+  "repository": "https://github.com/Dev-47/unigram-channel-service",
+  "author": "Dev 47",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb-memory-server": "^8.5.2",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
